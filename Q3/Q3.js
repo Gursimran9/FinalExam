@@ -18,7 +18,7 @@ function getCats(){
       display +=`
       <div class="card" style="width: 18rem;">
   <div class="card-body">
-  <img class="card-img-top" src=${cats.image} alt="Card image cap"> 
+  <img class="card-img-top" src=${cats.photo} alt="Card image cap"> 
     <h5 class="card-title">Name: ${cats.name}</h5>
     <hr>
     <h5 class="card-subtitle mb-2 text-muted">Price: ${cats.species}</h6>
